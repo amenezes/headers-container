@@ -2,5 +2,5 @@
 DCP_PRESENCE=$(find /usr/local/bin -name docker-compose | wc -l)
 if [ $DCP_PRESENCE -eq 1 ]
   then
-    /usr/local/bin/docker-compose exec mysql mysql/scripts//conf-db.sh
+    /usr/local/bin/docker-compose exec mysql mysql/scripts/conf-db.sh
 fi
