@@ -1,5 +1,7 @@
 FROM php:5.6.25-fpm
 
+MAINTAINER alexandre menezes "alexandre.fmenezes@owasp.org"
+
 RUN apt-get update && apt-get install -y \
   php5-mysqlnd
 
