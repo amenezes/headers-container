@@ -14,7 +14,7 @@
     echo "</div>";
     echo "<div id=\"navbar\" class=\"navbar-collapse collapse\">";
       echo "<ul class=\"nav navbar-nav navbar-right\">";
-        echo "<li><a href=\"/secureheaders\">Home</a></li>";
+        echo "<li><a href=\"/\">Home</a></li>";
         echo "<li><a href=\"https://www.owasp.org/index.php/OWASP_Secure_Headers_Project\">About</a></li>";
       echo "</ul>";
     echo "</div>";
