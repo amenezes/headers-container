@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /opt || exit
-mysql -u "root" "-ppassword" "headers" < headers.sql
+/usr/bin/mysql -u "root" "-ppassword" "headers" < headers.sql
