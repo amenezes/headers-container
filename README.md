@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/amenezes/headers-ui-container.svg?branch=master)](https://travis-ci.org/amenezes/headers-ui-container)
 ## headers-ui-container
 An easy way to up and running a web interface to navigate in data collected by headers core script.  
 ![alt text](https://github.com/oshp/headers/blob/master/docs/strict-transport-security.png)
