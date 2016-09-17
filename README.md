@@ -14,6 +14,7 @@ An easy way to up and running a web interface to navigate in data collected by h
   * [nginx](#nginx)  
   * [php](#php)
   * [docker-compose](#docker-compose)
+* [How to use](#how-to-use)
 
 ## Description  
 This project provides an easy way to up and running a web interface to navigate in data collected by headers core script.
@@ -47,3 +48,13 @@ IE libraries required to access database instance.
 
 ### docker-compose  
 The definition file to up and running headers-ui.
+
+## How to use
+
+To run the container images it will be necessary a [docker](https://docs.docker.com/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/) installation.
+
+```bash
+$ docker-compose build
+$ docker-compose up -d
+$ bash db_run.sh **necessary to populate headers database**
+```
