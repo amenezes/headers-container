@@ -16,4 +16,4 @@ before_install:
 
 script:
   - bash get_db_data.sh
-  - bash db-run.sh
+  - bash db_run.sh
