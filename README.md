@@ -51,7 +51,9 @@ The definition file to up and running headers-ui.
 
 ## How to use
 
-To run the container images it will be necessary a [docker](https://docs.docker.com/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/) installation.
+To run the container images it will be necessary a [docker](https://docs.docker.com/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/) installation.  
+
+With requirements met, just follow the steps below:
 
 ```bash
 $ docker-compose build
