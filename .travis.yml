@@ -14,5 +14,5 @@ before_install:
   - docker-compose build
   - docker-compose up -d
 
-script:
-  - bash db_run.sh
+#script:
+#  - bash db_run.sh
