@@ -3,7 +3,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SecureHeaders Project</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
@@ -23,7 +23,7 @@
 		  echo "</div>";
 		  echo "<div id=\"navbar\" class=\"navbar-collapse collapse\">";
 		    echo "<ul class=\"nav navbar-nav navbar-right\">";
-		      echo "<li class=\"active\"><a href=\"/secureheaders\">Home</a></li>";
+		      echo "<li class=\"active\"><a href=\"/\">Home</a></li>";
 		      echo "<li><a href=\"https://www.owasp.org/index.php/OWASP_Secure_Headers_Project\">About</a></li>";
 		    echo "</ul>";
 		  echo "</div>";
@@ -117,10 +117,10 @@
 ?>
 </body>
 </html>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/highcharts.js"></script>
-<script async src="js/exporting.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script async src="https://code.highcharts.com/modules/exporting.js"></script>
 <script type="text/javascript">
 	$.getJSON('data.php?header=<?php echo $_GET["header"] ?>&limit=<?php if ( $_GET["limit"] == '' ) { echo 10; } else { echo $_GET["limit"]; } ?>&includenull=<?php echo $_GET["includenull"] ?>', function (data) {
     $('#container').highcharts({
