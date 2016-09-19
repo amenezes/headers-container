@@ -6,7 +6,7 @@ services:
         environment:
           MYSQL_ROOT_PASSWORD: password
           MYSQL_DATABASE: headers
-          MYSQL_USER: root
+          MYSQL_USER: mysql
           MYSQL_PASSWORD: password
         volumes_from:
         - data
