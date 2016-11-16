@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "Public-Key-Pins",
+    "_type": "visualization",
+    "_source": {
+      "title": "Public-Key-Pins",
+      "visState": "{\n  \"title\": \"Public-Key-Pins\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"shareYAxis\": true,\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"isDonut\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"Public-Key-Pins\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"Public-Key-Pins\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"pin-sha256\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"pin-sha256\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"max-age\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"max-age\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"includesubdomains\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"IncludeSubDomains\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"report-uri\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"Report-URI\"\n          }\n        ]\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"oshp\",\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  }
+]

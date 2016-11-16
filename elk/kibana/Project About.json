@@ -1,0 +1,375 @@
+[
+  {
+    "_id": "dash1",
+    "_type": "dashboard",
+    "_source": {
+      "title": "dash1",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"sites_scanned\",\"panelIndex\":5,\"row\":3,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":8,\"id\":\"headers_bar_chart_all_sites\",\"panelIndex\":6,\"row\":3,\"size_x\":5,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"X-Frame-Options-(XFO)\",\"panelIndex\":7,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Server\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"X-Content-Type-Options\",\"panelIndex\":9,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"X-Permitted-Cross-Domain-Policies\",\"panelIndex\":10,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"X-XSS-Protection\",\"panelIndex\":11,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Secure-Headers-Summary\",\"panelIndex\":12,\"row\":3,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Strict-Transport-Security-(HSTS)\",\"panelIndex\":13,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Public-Key-Pins\",\"panelIndex\":14,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Content-Security-Policy\",\"panelIndex\":15,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-10\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-11\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-12\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-15\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-5\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-6\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "dash2",
+    "_type": "dashboard",
+    "_source": {
+      "title": "dash2",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"X-Frame-Options-(XFO)\",\"panelIndex\":7,\"row\":5,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Server\",\"panelIndex\":8,\"row\":5,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"X-Content-Type-Options\",\"panelIndex\":9,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"X-Permitted-Cross-Domain-Policies\",\"panelIndex\":10,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"X-XSS-Protection\",\"panelIndex\":11,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Secure-Headers-Summary\",\"panelIndex\":12,\"row\":8,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Strict-Transport-Security-(HSTS)\",\"panelIndex\":13,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Public-Key-Pins\",\"panelIndex\":14,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Content-Security-Policy\",\"panelIndex\":15,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Secure-Headers-Use\",\"panelIndex\":17,\"row\":5,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"id\":\"Project-About\",\"type\":\"visualization\",\"panelIndex\":18,\"size_x\":6,\"size_y\":2,\"col\":4,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-11\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-12\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-15\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-17\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "dash4",
+    "_type": "dashboard",
+    "_source": {
+      "title": "dash4",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Content-Security-Policy\",\"panelIndex\":15,\"row\":1,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":4,\"id\":\"X-XSS-Protection\",\"panelIndex\":11,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"X-Frame-Options-(XFO)\",\"panelIndex\":7,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Public-Key-Pins\",\"panelIndex\":14,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"X-Content-Type-Options\",\"panelIndex\":9,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Strict-Transport-Security-(HSTS)\",\"panelIndex\":13,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"X-Permitted-Cross-Domain-Policies\",\"panelIndex\":10,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":3,\"id\":\"Secure-Headers-Summary\",\"panelIndex\":12,\"row\":5,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":6,\"id\":\"Secure-Headers-Use\",\"panelIndex\":17,\"row\":5,\"size_x\":7,\"size_y\":3,\"type\":\"visualization\"},{\"id\":\"Project-About\",\"type\":\"visualization\",\"panelIndex\":18,\"size_x\":2,\"size_y\":3,\"col\":1,\"row\":5}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-11\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-12\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-15\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-17\":{\"vis\":{\"legendOpen\":false}},\"P-9\":{\"vis\":{\"colors\":{\"nosniff\":\"#BF1B00\"},\"legendOpen\":true}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "top3_x_xss_protection",
+    "_type": "visualization",
+    "_source": {
+      "title": "top3_x_xss_protection",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-xss-protection\\\" AND header_value:\\\"0\\\"\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-xss-protection\\\" AND header_value:\\\"1; mode=block\\\"\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-xss-protection\\\" AND header_value:\\\"1\\\"\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"headers_doc*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "headers_area_chart_all_sites",
+    "_type": "visualization",
+    "_source": {
+      "title": "headers_area_chart_all_sites",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"area\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"smoothLines\":false,\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"site\"}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"Strict-Transport-Security\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Strict-Transport-Security\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"Public-Key-Pins\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Public-Key-Pins\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"X-XSS-Protection\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-XSS-Protection\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"X-Content-Type-Options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Content-Type-Options\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"Content-Security-Policy\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Content-Security-Policy\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"X-Permitted-Cross-Domain-Policies\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Permitted-Cross-Domain-Policies\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"Server\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Server\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Unique count of site\":\"#447EBC\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"headers_doc*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "table_summary",
+    "_type": "visualization",
+    "_source": {
+      "title": "table_summary",
+      "visState": "{\"title\":\"table_summary\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":true,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"site\",\"customLabel\":\"Number of sites with header\"}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"bucket\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"Strict-Transport-Security\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Strict-Transport-Security (HSTS)\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"Public-Key-Pins\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Public-Key-Pins (HPKP)\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"X-Frame-Options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Frame-Options (XFO)\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"X-XSS-Protection\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-XSS-Protection\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"X-Content-Type-Options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Content-Type-Options\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"Content-Security-Policy\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Content-Security-Policy (CSP)\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"X-Permitted-Cross-Domain-Policies\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Permitted-Cross-Domain-Policies\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"Server\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Server\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"headers_doc*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "top4_x_xss_protection",
+    "_type": "visualization",
+    "_source": {
+      "title": "top4_x_xss_protection",
+      "visState": "{\"title\":\"top4_x_xss_protection\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"site\"}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-xss-protection\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-XSS-Protection\"}]}},{\"id\":\"3\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"0\\\"\",\"analyze_wildcard\":true}}},\"label\":\"0\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"1\\\"\",\"analyze_wildcard\":true}}},\"label\":\"1\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"1;mode=block\\\"\",\"analyze_wildcard\":true}}},\"label\":\"1;mode=block\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"1;mode=block;report\\\"\",\"analyze_wildcard\":true}}},\"label\":\"1;mode=block;report\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"headers_doc*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "top5_server",
+    "_type": "visualization",
+    "_source": {
+      "title": "top5_server",
+      "visState": "{\"title\":\"top5_server\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"site\"}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:server\",\"analyze_wildcard\":true}}},\"label\":\"Server\"}]}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"header_value\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"headers_doc*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "top5-x-frame-options",
+    "_type": "visualization",
+    "_source": {
+      "title": "top5-x-frame-options",
+      "visState": "{\"title\":\"top5-x-frame-options\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"site\"}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"X-Frame-Options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Frame-Options\"}]}},{\"id\":\"3\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"deny\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Deny\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"sameorigin\\\"\",\"analyze_wildcard\":true}}},\"label\":\"SAMEORIGIN\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"allow-from\\\"\",\"analyze_wildcard\":true}}},\"label\":\"ALLOW-FROM\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"allowall\\\"\",\"analyze_wildcard\":true}}},\"label\":\"ALLOWALL\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"headers_doc*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "top-X-Content-Type-Options",
+    "_type": "visualization",
+    "_source": {
+      "title": "top-X-Content-Type-Options",
+      "visState": "{\"title\":\"top-X-Content-Type-Options\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"site\"}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"X-Content-Type-Options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Content-Type-Options\"}]}},{\"id\":\"3\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"nosniff\\\"\",\"analyze_wildcard\":true}}},\"label\":\"nosniff\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"NOT header_value:\\\"nosniff\\\"\",\"analyze_wildcard\":true}}},\"label\":\"other\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"headers_doc*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Strict-Transport-Security-(STS)",
+    "_type": "visualization",
+    "_source": {
+      "title": "Strict-Transport-Security (STS)",
+      "visState": "{\"title\":\"Strict-Transport-Security (HSTS)\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"site\"}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"strict-transport-security\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Strict-Transport-Security (STS)\"}]}},{\"id\":\"3\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"includesubdomains\\\"\",\"analyze_wildcard\":true}}},\"label\":\"IncludeSubDomains\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"max-age\\\"\",\"analyze_wildcard\":true}}},\"label\":\"max-age\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"preload\\\"\",\"analyze_wildcard\":true}}},\"label\":\"preload\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"headers_doc*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "headers_bar_chart_all_sites",
+    "_type": "visualization",
+    "_source": {
+      "title": "headers_bar_chart_all_sites",
+      "visState": "{\n  \"title\": \"headers_bar_chart_all_sites\",\n  \"type\": \"histogram\",\n  \"params\": {\n    \"shareYAxis\": true,\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"scale\": \"linear\",\n    \"mode\": \"stacked\",\n    \"times\": [],\n    \"addTimeMarker\": false,\n    \"defaultYExtents\": false,\n    \"setYExtents\": false,\n    \"yAxis\": {}\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"customLabel\": \"Sites with secure headers enabled\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"Strict-Transport-Security\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"HSTS\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"Public-Key-Pins\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"HPKP\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"X-XSS-Protection\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"XSS-Protection\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"X-Content-Type-Options\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"Content-Type-Options\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"Content-Security-Policy\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"CSP\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"X-Permitted-Cross-Domain-Policies\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"Cross-Domain\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"X-Frame-Options\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"XFO\"\n          }\n        ]\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"colors\": {\n      \"Unique count of site\": \"#447EBC\",\n      \"Count\": \"#447EBC\"\n    },\n    \"legendOpen\": true\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"oshp\",\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "Strict-Transport-Security-(HSTS)",
+    "_type": "visualization",
+    "_source": {
+      "title": "Strict-Transport-Security (HSTS)",
+      "visState": "{\n  \"title\": \"Strict-Transport-Security (HSTS)\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"shareYAxis\": true,\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"isDonut\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"strict-transport-security\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"Strict-Transport-Security (HSTS)\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"includesubdomains\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"IncludeSubDomains\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"max-age\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"max-age\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"preload\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"preload\"\n          }\n        ]\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"oshp\",\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "Public-Key-Pins",
+    "_type": "visualization",
+    "_source": {
+      "title": "Public-Key-Pins",
+      "visState": "{\n  \"title\": \"Public-Key-Pins\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"shareYAxis\": true,\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"isDonut\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"Public-Key-Pins\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"Public-Key-Pins\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"pin-sha256\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"pin-sha256\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"max-age\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"max-age\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"includesubdomains\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"IncludeSubDomains\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"report-uri\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"Report-URI\"\n          }\n        ]\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"oshp\",\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "Markdown",
+    "_type": "visualization",
+    "_source": {
+      "title": "Markdown",
+      "visState": "{\"title\":\"Markdown\",\"type\":\"markdown\",\"params\":{\"markdown\":\"### **OWASP Secure Headers Project **  \\nThis dashboard represents a consolidate view of all data collected in a scan realized in Alexa (c) top 200.000 sites.   \\n\\n[Project page](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project) | [Github](https://github.com/oshp)    \\n\\n###### **last update: november 2016**\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "_Strict-Transport-Security-(HSTS)",
+    "_type": "visualization",
+    "_source": {
+      "title": "_Strict-Transport-Security (HSTS)",
+      "visState": "{\"title\":\"Strict-Transport-Security (HSTS)\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"includesubdomains\\\"\",\"analyze_wildcard\":true}}},\"label\":\"IncludeSubDomains\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"max-age\\\"\",\"analyze_wildcard\":true}}},\"label\":\"max-age\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"preload\\\"\",\"analyze_wildcard\":true}}},\"label\":\"preload\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"headers_doc*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "sites_scanned",
+    "_type": "visualization",
+    "_source": {
+      "title": "sites_scanned",
+      "visState": "{\n  \"title\": \"sites_scanned\",\n  \"type\": \"metric\",\n  \"params\": {\n    \"handleNoResults\": true,\n    \"fontSize\": 60\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"cardinality\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"field\": \"site\",\n        \"customLabel\": \"Sites scanned\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"oshp\",\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "Content-Security-Policy",
+    "_type": "visualization",
+    "_source": {
+      "title": "Content-Security-Policy",
+      "visState": "{\n  \"title\": \"Content-Security-Policy\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"shareYAxis\": true,\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"isDonut\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"content-security-policy\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"Content-Security-Policy\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"base-uri\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"base-uri\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"default-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"default-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"script-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"script-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"object-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"object-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"style-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"style-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"img-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"img-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"media-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"media-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"frame-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"frame-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"frame-ancestors\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"frame-ancestors\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"font-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"font-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"connect-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"connect-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"manifest-src\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"manifest-src\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"sandbox\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"sandbox\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"script-nonce\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"script-nonce\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"plugin-types\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"plugin-types\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"reflected-xss\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"reflected-xss\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"block-all-mixed-content\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"block-all-mixed-content\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"upgrade-insecure-requests\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"upgrade-insecure-requests\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"referrer\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"referrer\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"report-uri\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"report-uri\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"report-to\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"report-to\"\n          }\n        ]\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"oshp\",\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "Secure-Headers-Use",
+    "_type": "visualization",
+    "_source": {
+      "title": "Secure Headers Use",
+      "visState": "{\"title\":\"Secure Headers Use\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Sites with secure headers enabled\"}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"strict-transport-security\\\"\",\"analyze_wildcard\":true}}},\"label\":\"HSTS\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"public-key-pins\\\"\",\"analyze_wildcard\":true}}},\"label\":\"HPKP\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-xss-protection\\\"\",\"analyze_wildcard\":true}}},\"label\":\"XSS-Protection\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-content-type-options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Content-Type-Options\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"content-security-policy\\\"\",\"analyze_wildcard\":true}}},\"label\":\"CSP\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-permitted-cross-domain-policies\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Cross-Domain\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-frame-options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"XFO\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Unique count of site\":\"#447EBC\",\"Count\":\"#447EBC\"},\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"oshp\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "X-Permitted-Cross-Domain-Policies",
+    "_type": "visualization",
+    "_source": {
+      "title": "X-Permitted-Cross-Domain-Policies",
+      "visState": "{\n  \"title\": \"X-Permitted-Cross-Domain-Policies\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"shareYAxis\": true,\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"isDonut\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"X-Permitted-Cross-Domain-Policies\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"X-Permitted-Cross-Domain-Policies\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"none\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"NONE\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"master-only\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"MASTER-ONLY\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"by-content-type\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"By-Content-Type\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"by-ftp-filename\\t\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"By-FTP-Filename\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"all\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"ALL\"\n          }\n        ]\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"oshp\",\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "X-XSS-Protection",
+    "_type": "visualization",
+    "_source": {
+      "title": "X-XSS-Protection",
+      "visState": "{\n  \"title\": \"X-XSS-Protection\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"shareYAxis\": true,\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"isDonut\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:\\\"x-xss-protection\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"X-XSS-Protection\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"0\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"0\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"1\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"1\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"1;mode=block\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"1;mode=block\"\n          },\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_value:\\\"1;mode=block;report\\\"\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"1;mode=block;report\"\n          }\n        ]\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"legendOpen\": true\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"oshp\",\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "Server",
+    "_type": "visualization",
+    "_source": {
+      "title": "Server",
+      "visState": "{\n  \"title\": \"Server\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"shareYAxis\": true,\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"isDonut\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"type\": \"filters\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"filters\": [\n          {\n            \"input\": {\n              \"query\": {\n                \"query_string\": {\n                  \"query\": \"header_name:server\",\n                  \"analyze_wildcard\": true\n                }\n              }\n            },\n            \"label\": \"Server\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"header_value\",\n        \"size\": 5,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"legendOpen\": true\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"oshp\",\n  \"query\": {\n    \"query_string\": {\n      \"analyze_wildcard\": true,\n      \"query\": \"*\"\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "Secure-Headers-Summary",
+    "_type": "visualization",
+    "_source": {
+      "title": "Secure Headers Summary",
+      "visState": "{\"title\":\"Secure Headers Summary\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":true,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"bucket\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"strict-transport-security\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Strict-Transport-Security (HSTS)\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"public-key-pins\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Public-Key-Pins (HPKP)\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-frame-options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Frame-Options (XFO)\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-xss-protection\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-XSS-Protection\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-content-type-options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Content-Type-Options\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"content-security-policy\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Content-Security-Policy (CSP)\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-permitted-cross-domain-policies\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Permitted-Cross-Domain-Policies\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"oshp\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "X-Content-Type-Options",
+    "_type": "visualization",
+    "_source": {
+      "title": "X-Content-Type-Options",
+      "visState": "{\"title\":\"X-Content-Type-Options\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-content-type-options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Content-Type-Options\"}]}},{\"id\":\"3\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"nosniff\\\"\",\"analyze_wildcard\":true}}},\"label\":\"nosniff\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"NOT header_value:\\\"nosniff\\\"\",\"analyze_wildcard\":true}}},\"label\":\"other\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"oshp\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "X-Frame-Options-(XFO)",
+    "_type": "visualization",
+    "_source": {
+      "title": "X-Frame-Options (XFO)",
+      "visState": "{\"title\":\"X-Frame-Options (XFO)\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_name:\\\"x-frame-options\\\"\",\"analyze_wildcard\":true}}},\"label\":\"X-Frame-Options\"}]}},{\"id\":\"3\",\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"deny\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Deny\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"sameorigin\\\"\",\"analyze_wildcard\":true}}},\"label\":\"SAMEORIGIN\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"header_value:\\\"allow-from\\\"\",\"analyze_wildcard\":true}}},\"label\":\"ALLOW-FROM\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"NOT header_value:\\\"deny\\\"\",\"analyze_wildcard\":true}}},\"label\":\"Others\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"oshp\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Project-About",
+    "_type": "visualization",
+    "_source": {
+      "title": "Project About",
+      "visState": "{\"title\":\"Markdown\",\"type\":\"markdown\",\"params\":{\"markdown\":\"### **OWASP Secure Headers Project **  \\nThis dashboard represents a consolidate view of all data collected in a scan realized in Alexa (c) top 200.000 sites.   \\n\\n[Project page](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project) | [Github](https://github.com/oshp)    \\n\\n###### **last update: november 2016**\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

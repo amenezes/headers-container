@@ -1,5 +1,6 @@
 <?php
 
+echo "<br>";
 echo "<nav class=\"navbar navbar-default navbar-static-bottom\">";
   echo "<div class=\"container\">";
     echo "<p class=\"navbar-text\">The OWASP Secure Headers Project</p>
