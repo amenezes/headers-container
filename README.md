@@ -6,6 +6,8 @@ An easy way to up and running a web interface to navigate in data collected by h
 
 ![alt text](https://github.com/amenezes/headers/blob/master/docs/dashboard_sample_page.png)  
 
+![alt text](https://github.com/amenezes/headers/blob/master/docs/worldmap.png)  
+
 ## Table of contents
 * [Description](#description)
 * [Project Structure](#project-structure)  
