@@ -24,7 +24,8 @@ An easy way to up and running a web interface to navigate in data collected by h
 * [How to use](#how-to-use)
 
 ## Description  
-This project provides an easy way to up and running a web interface to navigate in data collected by headers core script.
+This project provides an easy way to up and running a web interface to navigate
+in data collected by headers core script.
 
 ## Project Structure
 ### app/
@@ -77,7 +78,9 @@ with basic visualization, without dashboard options.
 
 ## How to use
 
-To run the container images it will be necessary a [docker](https://docs.docker.com/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/) installation.  
+To run the container images it will be necessary a
+[docker](https://docs.docker.com/engine/installation/)
+and [docker-compose](https://docs.docker.com/compose/install/) installation.  
 
 With requirements met, just follow the steps below:
 
@@ -87,6 +90,10 @@ $ docker-compose build
 $ docker-compose up -d
 $ bash db_run.sh #necessary to setup headers database#
 ```
+
+> To visualize dashboard and world map it's necessary make more 2 simple
+configuration steps, according
+[wiki page](https://github.com/amenezes/headers-ui-container/wiki/ELK-Configuration).  
 
 - option 2 (**_docker-compose-without-dashboard.yml_**)
 ```bash
