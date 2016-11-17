@@ -2,7 +2,9 @@
 ## headers-ui-container
 An easy way to up and running a web interface to navigate in data collected by headers core script.  
 
-![alt text](https://github.com/oshp/headers/blob/master/docs/strict-transport-security.png)
+![alt text](https://github.com/oshp/headers/blob/master/docs/strict-transport-security.png)  
+
+![alt text](https://github.com/amenezes/headers/blob/master/docs/dashboard_sample_page.png)  
 
 ## Table of contents
 * [Description](#description)
@@ -77,14 +79,14 @@ To run the container images it will be necessary a [docker](https://docs.docker.
 
 With requirements met, just follow the steps below:
 
-- options 1 (**_docker-compose.yml_**)
+- option 1 (**_docker-compose.yml_**)
 ```bash
 $ docker-compose build
 $ docker-compose up -d
 $ bash db_run.sh #necessary to setup headers database#
 ```
 
-- options 2 (**_docker-compose-without-dashboard.yml_**)
+- option 2 (**_docker-compose-without-dashboard.yml_**)
 ```bash
 $ docker-compose -f docker-compose-without-dashboard.yml build
 $ docker-compose -f docker-compose-without-dashboard.yml up -d

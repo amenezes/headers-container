@@ -25,6 +25,7 @@
 		    echo "<ul class=\"nav navbar-nav navbar-right\">";
 		      echo "<li><a href=\"/\">Home</a></li>";
 					echo "<li class=\"active\"><a href=dashboard.php>Dashboard</a></li>";
+					echo "<li><a href=worldmap.php>World Map</a></li>";
 		      echo "<li><a href=\"https://www.owasp.org/index.php/OWASP_Secure_Headers_Project\">About</a></li>";
 		    echo "</ul>";
 		  echo "</div>";
