@@ -19,4 +19,4 @@ RUN curl -o ${ELASTICSEARCH_HOME}/repo/oshp.tar.gz \
   && rm oshp.tar.gz \
   && chown -R elasticsearch:elasticsearch oshp/
 
-#ONBUILD RUN sleep 15 && bash ${ELASTICSEARCH_HOME}/repo/setup_elasticsearch.sh
+#ONBUILD RUN sleep 30 && bash ${ELASTICSEARCH_HOME}/repo/setup_elasticsearch.sh

@@ -8,7 +8,7 @@ curl -XPUT 'http://localhost:9200/_snapshot/oshp' -d '{
     }
 }'
 # --------------- restore snapshot data ----------------
-curl -XPOST 'http://localhost:9200/_snapshot/oshp/snapshot_2016_4_qtrly/_restore' -d'{
+curl -XPOST 'http://localhost:9200/_snapshot/oshp/snapshot_2016_2_qtrly/_restore' -d'{
     "indices": "oshp",
     "ignore_unavailable": true,
     "include_global_state": true

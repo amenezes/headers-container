@@ -38,9 +38,6 @@ services:
         container_name: elasticsearch
         links:
         - kibana
-        ports:
-        - 9200:9200
-        - 9300:9300
     data:
         build: ./data
         container_name: data
